@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   viewBox="-5 -10 91.664001 83.335999"
+   id="svg8"
+   sodipodi:docname="wifi.svg"
+   width="91.664001"
+   height="83.335999"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs12" />
+  <sodipodi:namedview
+     id="namedview10"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="6.1407407"
+     inkscape:cx="29.882389"
+     inkscape:cy="56.019301"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8" />
+  <path
+     d="m 15.832,-1.6641 h 50 v 8.332 h 12.5 v 8.332 h 8.332 v -8.332 h -8.332 v -8.332 h -12.5 V -10 h -50 z m -12.5,8.332 h 12.5 v -8.332 h -12.5 z m 0,0 H -5 v 8.332 h 8.332 z m 58.332,12.5 H 20 v -8.332 h 41.664 z m 8.3359,8.332 H 61.664 v -8.332 h 8.3359 z m 0,0 h 8.332 v 8.3359 h -8.332 z m -58.336,0 h 8.3359 v -8.332 h -8.3359 z m 0,0 h -8.332 v 8.3359 h 8.332 z m 16.668,8.3359 h 25 v 8.332 h 8.332 v -8.332 h -8.332 v -8.3359 h -25 z m 0,0 h -8.332 v 8.332 h 8.332 z m 18.75,16.664 h -12.5 v -8.332 h 12.5 z m 0,12.5 v -12.5 h 8.332 v 12.5 z m -12.5,0 h 12.5 v 8.3359 h -12.5 z m 0,0 v -12.5 h -8.332 v 12.5 z"
+     fill-rule="evenodd"
+     id="path2"
+     style="fill:#ffffff;fill-opacity:1" />
+</svg>

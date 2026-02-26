@@ -1,0 +1,1044 @@
+<theme>
+
+
+
+    <variant name="zxspec">
+        <variables>
+            <color1>787878</color1>
+            <fontColor>867ade</fontColor>
+            <fontPath>./assets/fonts/zx.ttf</fontPath>
+        </variables>
+        <view name="system, gamelist">
+            <image name="background">
+                <pos>0 0</pos>
+                <size>1 1</size>
+                <path>./assets/space.webp</path>
+                <color>cecccf</color>
+                <zIndex>0</zIndex>
+            </image>
+            <helpsystem name="help">
+                <pos>0.5 0.995</pos>
+                <origin>0.5 1</origin>
+                <textColor>000000</textColor>
+                <iconColor>000000</iconColor>
+                <fontSize>0.02</fontSize>
+                <fontPath>${fontPath}</fontPath>
+            </helpsystem>
+        </view>
+    </variant>
+    <variant name="c64">
+        <variables>
+            <color1>787878</color1>
+            <fontColor>867ade</fontColor>
+            <fontPath>./assets/fonts/c64.ttf</fontPath>
+        </variables>
+        <view name="system, gamelist">
+            <image name="background">
+                <pos>0 0</pos>
+                <size>1 1</size>
+                <path>./assets/space.webp</path>
+                <color>cecccf</color>
+                <zIndex>0</zIndex>
+            </image>
+            <helpsystem name="help">
+                <pos>0.5 0.995</pos>
+                <origin>0.5 1</origin>
+                <textColor>483aaa</textColor>
+                <iconColor>483aaa</iconColor>
+                <fontSize>0.02</fontSize>
+                <fontPath>${fontPath}</fontPath>
+            </helpsystem>
+        </view>
+    </variant>
+    <variant name="cpc">
+        <variables>
+            <color1>787878</color1>
+            <fontColor>FFFF00</fontColor>
+            <fontPath>./assets/fonts/cpc.ttf</fontPath>
+        </variables>
+        <view name="system, gamelist">
+            <image name="background">
+                <pos>0 0</pos>
+                <size>1 1</size>
+                <path>./assets/space.webp</path>
+                <color>cecccf</color>
+                <zIndex>0</zIndex>
+            </image>
+            <helpsystem name="help">
+                <pos>0.5 0.995</pos>
+                <origin>0.5 1</origin>
+                <textColor>${fontColor}</textColor>
+                <iconColor>${fontColor}</iconColor>
+                <fontSize>0.02</fontSize>
+                <fontPath>${fontPath}</fontPath>
+            </helpsystem>
+        </view>
+    </variant>
+
+
+
+    <variant name="c64">
+        <view name="system">
+            <image name="background">
+                <pos>0 0</pos>
+                <size>1 1</size>
+                <path>./assets/space.webp</path>
+                <color>867ade</color>
+                <zIndex>0</zIndex>
+            </image>
+            <image name="background1">
+                <pos>0.5 0.5</pos>
+                <origin>0.5 0.5</origin>
+                <size>0.85 0.8</size>
+                <path>./assets/space.webp</path>
+                <color>483aaa</color>
+                <zIndex>0</zIndex>
+            </image>
+            <textlist name="systemlist">
+                <pos>0.1 0.4</pos>
+                <origin>0 0</origin>
+                <size>0.8 0.5</size>
+                <primaryColor>${fontColor}</primaryColor>
+                <selectedColor>483AAA</selectedColor>
+                <selectedBackgroundColor>${fontColor}</selectedBackgroundColor>
+                <selectedBackgroundMargins>0.005 0.005</selectedBackgroundMargins>
+                <selectorColor>${fontColor}00</selectorColor>
+                <fontPath>${fontPath}</fontPath>
+                <fontSize>0.0225</fontSize>
+                <zIndex>4</zIndex>
+            </textlist>
+            <text name="esde">
+                <pos>0.3 0.125</pos>
+                <origin>0 0</origin>
+                <size>0.75 0.05</size>
+                <text>**** ES-DE C64 BASIC ****</text>
+                <fontPath>${fontPath}</fontPath>
+                <fontSize>0.0225</fontSize>
+                <color>${fontColor}</color>
+                <zIndex>5</zIndex>
+            </text>
+            <text name="ready">
+                <pos>0.08 0.2</pos>
+                <origin>0 0</origin>
+                <size>0.75 0.05</size>
+                <text>READY.</text>
+                <fontPath>${fontPath}</fontPath>
+                <fontSize>0.0225</fontSize>
+                <color>${fontColor}</color>
+                <zIndex>5</zIndex>
+            </text>
+            <text name="load">
+                <pos>0.08 0.2225</pos>
+                <origin>0 0</origin>
+                <size>0.75 0.05</size>
+                <text>LOAD "SYSTEM SELECTION", 8</text>
+                <fontPath>${fontPath}</fontPath>
+                <fontSize>0.0225</fontSize>
+                <color>${fontColor}</color>
+                <zIndex>5</zIndex>
+            </text>
+            <text name="search">
+                <pos>0.08 0.2675</pos>
+                <origin>0 0</origin>
+                <size>0.75 0.05</size>
+                <text>SEARCHING FOR SYSTEM SELECTION</text>
+                <fontPath>${fontPath}</fontPath>
+                <fontSize>0.0225</fontSize>
+                <color>${fontColor}</color>
+                <zIndex>5</zIndex>
+            </text>
+            <text name="load3">
+                <pos>0.08 0.29</pos>
+                <origin>0 0</origin>
+                <size>0.75 0.05</size>
+                <text>LOADING</text>
+                <fontPath>${fontPath}</fontPath>
+                <fontSize>0.0225</fontSize>
+                <color>${fontColor}</color>
+                <zIndex>5</zIndex>
+            </text>
+            <text name="ready2">
+                <pos>0.08 0.3125</pos>
+                <origin>0 0</origin>
+                <size>0.75 0.05</size>
+                <text>READY.</text>
+                <fontPath>${fontPath}</fontPath>
+                <fontSize>0.0225</fontSize>
+                <color>${fontColor}</color>
+                <zIndex>5</zIndex>
+            </text>
+            <text name="loading">
+                <pos>0.08 0.335</pos>
+                <origin>0 0</origin>
+                <size>0.75 0.05</size>
+                <text>LIST</text>
+                <fontPath>${fontPath}</fontPath>
+                <fontSize>0.0225</fontSize>
+                <color>${fontColor}</color>
+                <zIndex>5</zIndex>
+            </text>
+
+            <systemstatus name="menustatus">
+                <scope>view</scope>
+                <pos>0.9 0.125</pos>
+                <origin>1 0</origin>
+                <height>0.02</height>
+                <color>${fontColor}</color>
+                <textRelativeScale>0.8</textRelativeScale>
+                <entries>all</entries>
+                <fontPath>./assets/fonts/c64p.ttf</fontPath>
+                <customIcon icon="icon_wifi">./assets/wifi.svg</customIcon>
+                <customIcon icon="icon_bluetooth">./assets/bluetooth.svg</customIcon>
+                <customIcon icon="icon_battery_charging">./assets/batt-charge.svg</customIcon>
+                <customIcon icon="icon_battery_low">./assets/batt-empt.svg</customIcon>
+                <customIcon icon="icon_battery_med">./assets/batt-low.svg</customIcon>
+                <customIcon icon="icon_battery_high">./assets/batt-high.svg</customIcon>
+                <customIcon icon="icon_battery_full">./assets/batt-full.svg</customIcon>
+                <customIcon icon="icon_cellular">./assets/cell.svg</customIcon>
+            </systemstatus>
+            <clock name="menuclock">
+                <scope>view</scope>
+                <fontSize>0.02</fontSize>
+                <rotation>0</rotation>
+                <pos>0.1 0.125</pos>
+                <size>0.6 0.02</size>
+                <origin>0 0</origin>
+                <fontPath>${fontPath}</fontPath>
+                <horizontalAlignment>left</horizontalAlignment>
+                <verticalAlignment>center</verticalAlignment>
+                <color>${fontColor}</color>
+            </clock>
+            <systemstatus name="menustatusmenu">
+                <scope>menu</scope>
+                <pos>0.8 0.05</pos>
+                <origin>1 0</origin>
+                <height>0.02</height>
+                <color>483aaa</color>
+                <entries>all</entries>
+                <fontPath>${fontPath}</fontPath>
+                <customIcon icon="icon_wifi">./assets/wifi.svg</customIcon>
+                <customIcon icon="icon_bluetooth">./assets/bluetooth.svg</customIcon>
+                <customIcon icon="icon_battery_charging">./assets/batt-charge.svg</customIcon>
+                <customIcon icon="icon_battery_low">./assets/batt-empt.svg</customIcon>
+                <customIcon icon="icon_battery_med">./assets/batt-low.svg</customIcon>
+                <customIcon icon="icon_battery_high">./assets/batt-high.svg</customIcon>
+                <customIcon icon="icon_battery_full">./assets/batt-full.svg</customIcon>
+                <customIcon icon="icon_cellular">./assets/cell.svg</customIcon>
+            </systemstatus>
+            <clock name="menuclockmenu">
+                <scope>menu</scope>
+                <fontSize>0.02</fontSize>
+                <rotation>0</rotation>
+                <pos>0.2 0.05</pos>
+                <size>0.6 0.02</size>
+                <origin>0 0</origin>
+                <fontPath>${fontPath}</fontPath>
+                <horizontalAlignment>left</horizontalAlignment>
+                <verticalAlignment>center</verticalAlignment>
+                <color>483aaa</color>
+            </clock>
+        </view>
+
+
+        <view name="gamelist">
+            <carousel name="system_grid">
+                <imageType>screenshot, titlescreen</imageType>
+                <type>horizontal</type>
+                <pos>0.5 0.5</pos>
+                <imageFit>cover</imageFit>
+                <imageCropPos>0.5 0.95</imageCropPos>
+                <imageInterpolation>nearest</imageInterpolation>
+                <origin>00.5 0.5</origin>
+                <size>0.845 0.82</size>
+                <itemScale>1</itemScale>
+                <imageSaturation>0</imageSaturation>
+                <imageColor>cdcccf</imageColor>
+                <selectedItemMargins>0 0</selectedItemMargins>
+                <itemSize>0.845 0.82</itemSize>
+                <maxItemCount>1</maxItemCount>
+                <itemTransitions>instant</itemTransitions>
+
+                <fontPath>${fontPath}</fontPath>
+                <color>00000000</color>
+                <text>${system.fullName}</text>
+                <textColor>${fontColor}</textColor>
+                <textBackgroundColor>483AAA</textBackgroundColor>
+                <zIndex>12</zIndex>
+            </carousel>
+            <image name="marq">
+                <imageType>marquee</imageType>
+                <pos>0.1 0.105</pos>
+                <origin>0 0</origin>
+                <maxSize>0.245 0.35</maxSize>
+                <zIndex>16</zIndex>
+            </image>
+
+            <video name="load">
+                <imageType>none</imageType>
+                <path>./assets/loading/c64.mp4</path>
+                <delay>0</delay>
+                <zIndex>1</zIndex>
+                <size>1 1</size>
+                <audio>false</audio>
+                <fadeInTime>0</fadeInTime>
+                <scrollFadeIn>false</scrollFadeIn>
+                <pos>0.5 0.5</pos>
+                <origin>0.5 0.5</origin>
+            </video>
+            <video name="base">
+                <imageType>none</imageType>
+                <pos>0.50 0.5</pos>
+                <origin>0.5 0.5</origin>
+                <cropSize>0.845 0.82</cropSize>
+                <cropPos>0.5 1</cropPos>
+                <delay>3</delay>
+                <opacity>1</opacity>
+
+                <saturation>1</saturation>
+                <zIndex>15</zIndex>
+            </video>
+            <image name="backload">
+                <pos>0.50 0.5</pos>
+                <origin>0.5 0.5</origin>
+                <size>0.845 0.82</size>
+                <path>./assets/space.webp</path>
+                <color>483aaa</color>
+                <zIndex>2</zIndex>
+            </image>
+            <image name="status">
+                <pos>0.50 0.09</pos>
+                <origin>0.5 0.5</origin>
+                <size>0.845 0.03</size>
+                <path>./assets/space.webp</path>
+                <color>483AAA</color>
+                <zIndex>16</zIndex>
+            </image>
+            <systemstatus name="menustatus">
+                <scope>view</scope>
+                <pos>0.905 0.08</pos>
+                <origin>1 0</origin>
+                <height>0.02</height>
+                <color>${fontColor}</color>
+                <entries>all</entries>
+                <fontPath>${fontPath}</fontPath>
+                <customIcon icon="icon_wifi">./assets/wifi.svg</customIcon>
+                <customIcon icon="icon_bluetooth">./assets/bluetooth.svg</customIcon>
+                <customIcon icon="icon_battery_charging">./assets/batt-charge.svg</customIcon>
+                <customIcon icon="icon_battery_low">./assets/batt-empt.svg</customIcon>
+                <customIcon icon="icon_battery_med">./assets/batt-low.svg</customIcon>
+                <customIcon icon="icon_battery_high">./assets/batt-high.svg</customIcon>
+                <customIcon icon="icon_battery_full">./assets/batt-full.svg</customIcon>
+                <customIcon icon="icon_cellular">./assets/cell.svg</customIcon>
+            </systemstatus>
+            <clock name="menuclock">
+                <scope>view</scope>
+                <fontSize>0.02</fontSize>
+                <rotation>0</rotation>
+                <pos>0.095 0.08</pos>
+                <size>0.6 0.02</size>
+                <origin>0 0</origin>
+                <fontPath>${fontPath}</fontPath>
+                <horizontalAlignment>left</horizontalAlignment>
+                <verticalAlignment>center</verticalAlignment>
+                <color>${fontColor}</color>
+            </clock>
+            <systemstatus name="menustatusmenu">
+                <scope>menu</scope>
+                <pos>0.905 0.08</pos>
+                <origin>1 0</origin>
+                <height>0.02</height>
+                <color>222222</color>
+                <entries>all</entries>
+                <fontPath>${fontPath}</fontPath>
+                <customIcon icon="icon_wifi">./assets/wifi.svg</customIcon>
+                <customIcon icon="icon_bluetooth">./assets/bluetooth.svg</customIcon>
+                <customIcon icon="icon_battery_charging">./assets/batt-charge.svg</customIcon>
+                <customIcon icon="icon_battery_low">./assets/batt-empt.svg</customIcon>
+                <customIcon icon="icon_battery_med">./assets/batt-low.svg</customIcon>
+                <customIcon icon="icon_battery_high">./assets/batt-high.svg</customIcon>
+                <customIcon icon="icon_battery_full">./assets/batt-full.svg</customIcon>
+                <customIcon icon="icon_cellular">./assets/cell.svg</customIcon>
+            </systemstatus>
+            <clock name="menuclockmenu">
+                <scope>menu</scope>
+                <fontSize>0.02</fontSize>
+                <rotation>0</rotation>
+                <pos>0.095 0.08</pos>
+                <size>0.6 0.02</size>
+                <origin>0 0</origin>
+                <fontPath>${fontPath}</fontPath>
+                <horizontalAlignment>left</horizontalAlignment>
+                <verticalAlignment>center</verticalAlignment>
+                <color>333333</color>
+            </clock>
+
+            <image name="help">
+                <pos>0.50 0.8975</pos>
+                <origin>0.5 0.5</origin>
+                <size>0.845 0.03</size>
+                <path>./assets/space.webp</path>
+                <color>483AAA</color>
+                <zIndex>16</zIndex>
+            </image>
+            <helpsystem name="help">
+                <pos>0.5 0.9075</pos>
+                <origin>0.5 1</origin>
+                <entries>a,b,x,y,start</entries>
+                <fontSize>0.028</fontSize>
+                <textColor>${fontColor}</textColor>
+                <iconColor>${fontColor}</iconColor>
+                <fontSize>0.0175</fontSize>
+                <fontPath>${fontPath}</fontPath>
+            </helpsystem>
+        </view>
+    </variant>
+
+    <variant name="cpc">
+        <view name="system">
+            <image name="background">
+                <pos>0 0</pos>
+                <size>1 1</size>
+                <path>./assets/space.webp</path>
+                <color>000080</color>
+                <zIndex>0</zIndex>
+            </image>
+            <image name="background1">
+                <pos>0.5 0.5</pos>
+                <origin>0.5 0.5</origin>
+                <size>0.85 0.8</size>
+                <path>./assets/space.webp</path>
+                <color>000080</color>
+                <zIndex>0</zIndex>
+            </image>
+            <textlist name="systemlist">
+                <pos>0.1 0.45</pos>
+                <origin>0 0</origin>
+                <size>0.8 0.46</size>
+                <primaryColor>${fontColor}</primaryColor>
+                <selectedColor>000080</selectedColor>
+                <selectedBackgroundColor>${fontColor}</selectedBackgroundColor>
+                <selectedBackgroundMargins>0.005 0.005</selectedBackgroundMargins>
+                <selectorColor>${fontColor}00</selectorColor>
+                <fontPath>${fontPath}</fontPath>
+                <fontSize>0.0225</fontSize>
+                <zIndex>4</zIndex>
+            </textlist>
+            <text name="esde">
+                <pos>0.08 0.135</pos>
+                <origin>0 0</origin>
+                <size>0.75 0.05</size>
+                <text>ES-DE CPC Basic    (v4)</text>
+                <fontPath>${fontPath}</fontPath>
+                <fontSize>0.0225</fontSize>
+                <color>${fontColor}</color>
+                <zIndex>5</zIndex>
+            </text>
+            <text name="ready">
+                <pos>0.08 0.18</pos>
+                <origin>0 0</origin>
+                <size>0.75 0.05</size>
+                <text>Ready</text>
+                <fontPath>${fontPath}</fontPath>
+                <fontSize>0.0225</fontSize>
+                <color>${fontColor}</color>
+                <zIndex>5</zIndex>
+            </text>
+            <text name="load">
+                <pos>0.08 0.2025</pos>
+                <origin>0 0</origin>
+                <size>0.75 0.05</size>
+                <text>cat</text>
+                <fontPath>${fontPath}</fontPath>
+                <fontSize>0.0225</fontSize>
+                <color>${fontColor}</color>
+                <zIndex>5</zIndex>
+            </text>
+            <text name="search">
+                <pos>0.08 0.2475</pos>
+                <origin>0 0</origin>
+                <size>0.75 0.05</size>
+                <text>Drive A:   user  0</text>
+                <fontPath>${fontPath}</fontPath>
+                <fontSize>0.0225</fontSize>
+                <color>${fontColor}</color>
+                <zIndex>5</zIndex>
+            </text>
+            <text name="load3">
+                <pos>0.08 0.2925</pos>
+                <origin>0 0</origin>
+                <size>0.75 0.05</size>
+                <text>SYSTEM_SELECTION.BAS   SYSTEM1.BIN</text>
+                <fontPath>${fontPath}</fontPath>
+                <fontSize>0.0225</fontSize>
+                <color>${fontColor}</color>
+                <zIndex>5</zIndex>
+            </text>
+
+            <text name="loading">
+                <pos>0.08 0.3375</pos>
+                <origin>0 0</origin>
+                <size>0.75 0.05</size>
+                <text>Ready</text>
+                <fontPath>${fontPath}</fontPath>
+                <fontSize>0.0225</fontSize>
+                <color>${fontColor}</color>
+                <zIndex>5</zIndex>
+            </text>
+            <text name="loading4">
+                <pos>0.08 0.36</pos>
+                <origin>0 0</origin>
+                <size>0.75 0.05</size>
+                <text>load "system_selection"</text>
+                <fontPath>${fontPath}</fontPath>
+                <fontSize>0.0225</fontSize>
+                <color>${fontColor}</color>
+                <zIndex>5</zIndex>
+            </text>
+            <text name="loading5">
+                <pos>0.08 0.3825</pos>
+                <origin>0 0</origin>
+                <size>0.75 0.05</size>
+                <text>Ready</text>
+                <fontPath>${fontPath}</fontPath>
+                <fontSize>0.0225</fontSize>
+                <color>${fontColor}</color>
+                <zIndex>5</zIndex>
+            </text>
+            <text name="loading6">
+                <pos>0.08 0.405</pos>
+                <origin>0 0</origin>
+                <size>0.75 0.05</size>
+                <text>run</text>
+                <fontPath>${fontPath}</fontPath>
+                <fontSize>0.0225</fontSize>
+                <color>${fontColor}</color>
+                <zIndex>5</zIndex>
+            </text>
+
+            <systemstatus name="menustatus">
+                <scope>view</scope>
+                <pos>0.9 0.115</pos>
+                <origin>1 0</origin>
+                <height>0.02</height>
+                <color>${fontColor}</color>
+                <textRelativeScale>0.8</textRelativeScale>
+                <entries>all</entries>
+                <fontPath>./assets/fonts/c64p.ttf</fontPath>
+                <customIcon icon="icon_wifi">./assets/wifi.svg</customIcon>
+                <customIcon icon="icon_bluetooth">./assets/bluetooth.svg</customIcon>
+                <customIcon icon="icon_battery_charging">./assets/batt-charge.svg</customIcon>
+                <customIcon icon="icon_battery_low">./assets/batt-empt.svg</customIcon>
+                <customIcon icon="icon_battery_med">./assets/batt-low.svg</customIcon>
+                <customIcon icon="icon_battery_high">./assets/batt-high.svg</customIcon>
+                <customIcon icon="icon_battery_full">./assets/batt-full.svg</customIcon>
+                <customIcon icon="icon_cellular">./assets/cell.svg</customIcon>
+            </systemstatus>
+            <clock name="menuclock">
+                <scope>view</scope>
+                <fontSize>0.02</fontSize>
+                <rotation>0</rotation>
+                <pos>0.08 0.115</pos>
+                <size>0.6 0.02</size>
+                <origin>0 0</origin>
+                <fontPath>${fontPath}</fontPath>
+                <horizontalAlignment>left</horizontalAlignment>
+                <verticalAlignment>center</verticalAlignment>
+                <color>${fontColor}</color>
+            </clock>
+            <systemstatus name="menustatusmenu">
+                <scope>menu</scope>
+                <pos>0.8 0.05</pos>
+                <origin>1 0</origin>
+                <height>0.02</height>
+                <color>483aaa</color>
+                <entries>all</entries>
+                <fontPath>${fontPath}</fontPath>
+                <customIcon icon="icon_wifi">./assets/wifi.svg</customIcon>
+                <customIcon icon="icon_bluetooth">./assets/bluetooth.svg</customIcon>
+                <customIcon icon="icon_battery_charging">./assets/batt-charge.svg</customIcon>
+                <customIcon icon="icon_battery_low">./assets/batt-empt.svg</customIcon>
+                <customIcon icon="icon_battery_med">./assets/batt-low.svg</customIcon>
+                <customIcon icon="icon_battery_high">./assets/batt-high.svg</customIcon>
+                <customIcon icon="icon_battery_full">./assets/batt-full.svg</customIcon>
+                <customIcon icon="icon_cellular">./assets/cell.svg</customIcon>
+            </systemstatus>
+            <clock name="menuclockmenu">
+                <scope>menu</scope>
+                <fontSize>0.02</fontSize>
+                <rotation>0</rotation>
+                <pos>0.2 0.05</pos>
+                <size>0.6 0.02</size>
+                <origin>0 0</origin>
+                <fontPath>${fontPath}</fontPath>
+                <horizontalAlignment>left</horizontalAlignment>
+                <verticalAlignment>center</verticalAlignment>
+                <color>483aaa</color>
+            </clock>
+        </view>
+
+
+        <view name="gamelist">
+            <carousel name="system_grid">
+                <imageType>screenshot, titlescreen</imageType>
+                <type>horizontal</type>
+                <pos>0.5 0.5</pos>
+                <imageFit>cover</imageFit>
+                <imageCropPos>0.5 0.95</imageCropPos>
+                <imageInterpolation>nearest</imageInterpolation>
+                <origin>00.5 0.5</origin>
+                <size>0.845 0.82</size>
+                <itemScale>1</itemScale>
+                <imageSaturation>0</imageSaturation>
+                <imageColor>cdcccf</imageColor>
+                <selectedItemMargins>0 0</selectedItemMargins>
+                <itemSize>0.845 0.82</itemSize>
+                <maxItemCount>1</maxItemCount>
+                <itemTransitions>instant</itemTransitions>
+
+                <fontPath>${fontPath}</fontPath>
+                <color>00000000</color>
+                <text>${system.fullName}</text>
+                <textColor>${fontColor}</textColor>
+                <textBackgroundColor>000080</textBackgroundColor>
+                <zIndex>12</zIndex>
+            </carousel>
+            <image name="marq">
+                <imageType>marquee</imageType>
+                <pos>0.1 0.105</pos>
+                <origin>0 0</origin>
+                <maxSize>0.245 0.35</maxSize>
+                <zIndex>16</zIndex>
+            </image>
+
+            <video name="load">
+                <imageType>none</imageType>
+                <path>./assets/loading/cpc.mp4</path>
+                <delay>0</delay>
+                <zIndex>1</zIndex>
+                <size>1 1</size>
+                <fadeInTime>0</fadeInTime>
+                <scrollFadeIn>false</scrollFadeIn>
+                <audio>false</audio>
+                <pos>0.5 0.5</pos>
+                <origin>0.5 0.5</origin>
+            </video>
+            <video name="base">
+                <imageType>none</imageType>
+                <pos>0.50 0.5</pos>
+                <origin>0.5 0.5</origin>
+                <cropSize>0.845 0.82</cropSize>
+                <cropPos>0.5 1</cropPos>
+                <delay>3</delay>
+                <opacity>1</opacity>
+                <saturation>1</saturation>
+                <zIndex>15</zIndex>
+            </video>
+            <image name="backload">
+                <pos>0.50 0.5</pos>
+                <origin>0.5 0.5</origin>
+                <size>0.845 0.82</size>
+                <path>./assets/space.webp</path>
+                <color>000080</color>
+                <zIndex>2</zIndex>
+            </image>
+            <image name="status">
+                <pos>0.50 0.09</pos>
+                <origin>0.5 0.5</origin>
+                <size>0.845 0.03</size>
+                <path>./assets/space.webp</path>
+                <color>000080</color>
+                <zIndex>16</zIndex>
+            </image>
+            <systemstatus name="menustatus">
+                <scope>view</scope>
+                <pos>0.905 0.08</pos>
+                <origin>1 0</origin>
+                <height>0.02</height>
+                <color>${fontColor}</color>
+                <entries>all</entries>
+                <fontPath>${fontPath}</fontPath>
+                <customIcon icon="icon_wifi">./assets/wifi.svg</customIcon>
+                <customIcon icon="icon_bluetooth">./assets/bluetooth.svg</customIcon>
+                <customIcon icon="icon_battery_charging">./assets/batt-charge.svg</customIcon>
+                <customIcon icon="icon_battery_low">./assets/batt-empt.svg</customIcon>
+                <customIcon icon="icon_battery_med">./assets/batt-low.svg</customIcon>
+                <customIcon icon="icon_battery_high">./assets/batt-high.svg</customIcon>
+                <customIcon icon="icon_battery_full">./assets/batt-full.svg</customIcon>
+                <customIcon icon="icon_cellular">./assets/cell.svg</customIcon>
+            </systemstatus>
+            <clock name="menuclock">
+                <scope>view</scope>
+                <fontSize>0.02</fontSize>
+                <rotation>0</rotation>
+                <pos>0.095 0.08</pos>
+                <size>0.6 0.02</size>
+                <origin>0 0</origin>
+                <fontPath>${fontPath}</fontPath>
+                <horizontalAlignment>left</horizontalAlignment>
+                <verticalAlignment>center</verticalAlignment>
+                <color>${fontColor}</color>
+            </clock>
+            <systemstatus name="menustatusmenu">
+                <scope>menu</scope>
+                <pos>0.905 0.08</pos>
+                <origin>1 0</origin>
+                <height>0.02</height>
+                <color>222222</color>
+                <entries>all</entries>
+                <fontPath>${fontPath}</fontPath>
+                <customIcon icon="icon_wifi">./assets/wifi.svg</customIcon>
+                <customIcon icon="icon_bluetooth">./assets/bluetooth.svg</customIcon>
+                <customIcon icon="icon_battery_charging">./assets/batt-charge.svg</customIcon>
+                <customIcon icon="icon_battery_low">./assets/batt-empt.svg</customIcon>
+                <customIcon icon="icon_battery_med">./assets/batt-low.svg</customIcon>
+                <customIcon icon="icon_battery_high">./assets/batt-high.svg</customIcon>
+                <customIcon icon="icon_battery_full">./assets/batt-full.svg</customIcon>
+                <customIcon icon="icon_cellular">./assets/cell.svg</customIcon>
+            </systemstatus>
+            <clock name="menuclockmenu">
+                <scope>menu</scope>
+                <fontSize>0.02</fontSize>
+                <rotation>0</rotation>
+                <pos>0.095 0.08</pos>
+                <size>0.6 0.02</size>
+                <origin>0 0</origin>
+                <fontPath>${fontPath}</fontPath>
+                <horizontalAlignment>left</horizontalAlignment>
+                <verticalAlignment>center</verticalAlignment>
+                <color>333333</color>
+            </clock>
+
+            <image name="help">
+                <pos>0.50 0.8975</pos>
+                <origin>0.5 0.5</origin>
+                <size>0.845 0.03</size>
+                <path>./assets/space.webp</path>
+                <color>000080</color>
+                <zIndex>16</zIndex>
+            </image>
+            <helpsystem name="help">
+                <pos>0.5 0.9075</pos>
+                <origin>0.5 1</origin>
+                <entries>a,b,x,y,start</entries>
+                <fontSize>0.028</fontSize>
+                <textColor>${fontColor}</textColor>
+                <iconColor>${fontColor}</iconColor>
+                <fontSize>0.015</fontSize>
+                <fontPath>${fontPath}</fontPath>
+            </helpsystem>
+        </view>
+    </variant>
+
+
+
+
+    <variant name="zxspec">
+        <view name="system">
+            <textlist name="systemlist">
+                <pos>0.5 0.5</pos>
+                <origin>0.5 0.5</origin>
+                <size>0.4 0.51</size>
+                <primaryColor>000000</primaryColor>
+                <selectedBackgroundColor>00FFFF</selectedBackgroundColor>
+                <selectorColor>00FFFF</selectorColor>
+                <fontPath>${fontPath}</fontPath>
+                <fontSize>0.0225</fontSize>
+                <zIndex>4</zIndex>
+            </textlist>
+            <image name="basicbase1">
+                <pos>0.5 0.48</pos>
+                <origin>0.5 0.5</origin>
+                <size>0.41 0.56</size>
+                <path>./assets/space.webp</path>
+                <color>000000</color>
+                <zIndex>2</zIndex>
+            </image>
+            <image name="basicbase2">
+                <pos>0.5 0.4985</pos>
+                <origin>0.5 0.5</origin>
+                <size>0.4 0.5075</size>
+                <path>./assets/space.webp</path>
+                <color>FFFFFF</color>
+                <zIndex>3</zIndex>
+            </image>
+            <text name="esde">
+                <pos>0.3 0.1975</pos>
+                <origin>0 0</origin>
+                <size>0.375 0.05</size>
+                <text>System Select</text>
+                <fontPath>${fontPath}</fontPath>
+                <fontSize>0.0225</fontSize>
+                <color>FFFFFF</color>
+                <zIndex>5</zIndex>
+            </text>
+            <image name="basicbar1">
+                <pos>0.6 0.2225</pos>
+                <origin>0.5 0.5</origin>
+                <size>0.04 0.045</size>
+                <path>./assets/zxbar.svg</path>
+                <color>FF0002</color>
+                <zIndex>5</zIndex>
+            </image>
+            <image name="basicbar2">
+                <pos>0.62 0.2225</pos>
+                <origin>0.5 0.5</origin>
+                <size>0.04 0.045</size>
+                <path>./assets/zxbar.svg</path>
+                <color>Fdff00</color>
+                <zIndex>5</zIndex>
+            </image>
+            <image name="basicbar3">
+                <pos>0.64 0.2225</pos>
+                <origin>0.5 0.5</origin>
+                <size>0.04 0.045</size>
+                <path>./assets/zxbar.svg</path>
+                <color>00ff03</color>
+                <zIndex>5</zIndex>
+            </image>
+            <image name="basicbar4">
+                <pos>0.66 0.2225</pos>
+                <origin>0.5 0.5</origin>
+                <size>0.04 0.045</size>
+                <path>./assets/zxbar.svg</path>
+                <color>01fffe</color>
+                <zIndex>5</zIndex>
+            </image>
+            <systemstatus name="menustatus">
+                <scope>view</scope>
+                <pos>0.7 0.175</pos>
+                <origin>1 0</origin>
+                <height>0.02</height>
+                <color>222222</color>
+                <entries>all</entries>
+                <fontPath>${fontPath}</fontPath>
+                <customIcon icon="icon_wifi">./assets/wifi.svg</customIcon>
+                <customIcon icon="icon_bluetooth">./assets/bluetooth.svg</customIcon>
+                <customIcon icon="icon_battery_charging">./assets/batt-charge.svg</customIcon>
+                <customIcon icon="icon_battery_low">./assets/batt-empt.svg</customIcon>
+                <customIcon icon="icon_battery_med">./assets/batt-low.svg</customIcon>
+                <customIcon icon="icon_battery_high">./assets/batt-high.svg</customIcon>
+                <customIcon icon="icon_battery_full">./assets/batt-full.svg</customIcon>
+                <customIcon icon="icon_cellular">./assets/cell.svg</customIcon>
+            </systemstatus>
+            <clock name="menuclock">
+                <scope>view</scope>
+                <fontSize>0.02</fontSize>
+                <rotation>0</rotation>
+                <pos>0.3 0.175</pos>
+                <size>0.6 0.02</size>
+                <origin>0 0</origin>
+                <fontPath>${fontPath}</fontPath>
+                <horizontalAlignment>left</horizontalAlignment>
+                <verticalAlignment>center</verticalAlignment>
+                <color>333333</color>
+            </clock>
+            <systemstatus name="menustatusmenu">
+                <scope>menu</scope>
+                <pos>0.7 0.075</pos>
+                <origin>1 0</origin>
+                <height>0.02</height>
+                <color>222222</color>
+                <entries>all</entries>
+                <fontPath>${fontPath}</fontPath>
+                <customIcon icon="icon_wifi">./assets/wifi.svg</customIcon>
+                <customIcon icon="icon_bluetooth">./assets/bluetooth.svg</customIcon>
+                <customIcon icon="icon_battery_charging">./assets/batt-charge.svg</customIcon>
+                <customIcon icon="icon_battery_low">./assets/batt-empt.svg</customIcon>
+                <customIcon icon="icon_battery_med">./assets/batt-low.svg</customIcon>
+                <customIcon icon="icon_battery_high">./assets/batt-high.svg</customIcon>
+                <customIcon icon="icon_battery_full">./assets/batt-full.svg</customIcon>
+                <customIcon icon="icon_cellular">./assets/cell.svg</customIcon>
+            </systemstatus>
+            <clock name="menuclockmenu">
+                <scope>menu</scope>
+                <fontSize>0.02</fontSize>
+                <rotation>0</rotation>
+                <pos>0.3 0.075</pos>
+                <size>0.6 0.02</size>
+                <origin>0 0</origin>
+                <fontPath>${fontPath}</fontPath>
+                <horizontalAlignment>left</horizontalAlignment>
+                <verticalAlignment>center</verticalAlignment>
+                <color>333333</color>
+            </clock>
+        </view>
+
+        <view name="gamelist">
+            <carousel name="system_grid">
+                <imageType>screenshot, titlescreen</imageType>
+                <type>horizontal</type>
+                <pos>0.5 0.5</pos>
+                <imageFit>cover</imageFit>
+                <imageCropPos>0.5 0.95</imageCropPos>
+                <imageInterpolation>nearest</imageInterpolation>
+                <origin>00.5 0.5</origin>
+                <size>0.82 0.82</size>
+                <itemScale>1</itemScale>
+                <imageSaturation>0</imageSaturation>
+                <imageColor>cdcccf</imageColor>
+                <selectedItemMargins>0 0</selectedItemMargins>
+                <itemSize>0.82 0.82</itemSize>
+                <maxItemCount>1</maxItemCount>
+                <itemTransitions>instant</itemTransitions>
+
+                <fontPath>${fontPath}</fontPath>
+                <color>00000000</color>
+                <text>${system.fullName}</text>
+                <textColor>000000</textColor>
+                <textBackgroundColor>cecccf</textBackgroundColor>
+                <zIndex>12</zIndex>
+            </carousel>
+            <image name="marq">
+                <imageType>marquee</imageType>
+                <pos>0.1 0.105</pos>
+                <origin>0 0</origin>
+                <maxSize>0.245 0.35</maxSize>
+                <zIndex>16</zIndex>
+            </image>
+
+            <video name="load">
+                <imageType>none</imageType>
+                <path>./assets/loading/zx.mp4</path>
+                <delay>0</delay>
+                <audio>false</audio>
+                <zIndex>1</zIndex>
+                <size>1 1</size>
+                <fadeInTime>0</fadeInTime>
+                <scrollFadeIn>false</scrollFadeIn>
+                <pos>0.5 0.5</pos>
+                <origin>0.5 0.5</origin>
+            </video>
+            <video name="base">
+                <imageType>none</imageType>
+                <pos>0.50 0.5</pos>
+                <origin>0.5 0.5</origin>
+                <cropSize>0.82 0.82</cropSize>
+                <cropPos>0.5 1</cropPos>
+                <delay>3</delay>
+                <opacity>1</opacity>
+
+                <saturation>1</saturation>
+                <zIndex>15</zIndex>
+            </video>
+            <image name="backload">
+                <pos>0.50 0.5</pos>
+                <origin>0.5 0.5</origin>
+                <size>0.82 0.82</size>
+                <path>./assets/space.webp</path>
+                <color>cecccf</color>
+                <zIndex>2</zIndex>
+            </image>
+            <image name="status">
+                <pos>0.50 0.09</pos>
+                <origin>0.5 0.5</origin>
+                <size>0.82 0.03</size>
+                <path>./assets/space.webp</path>
+                <color>cecccf</color>
+                <zIndex>16</zIndex>
+            </image>
+            <systemstatus name="menustatus">
+                <scope>view</scope>
+                <pos>0.905 0.08</pos>
+                <origin>1 0</origin>
+                <height>0.02</height>
+                <color>222222</color>
+                <entries>all</entries>
+                <fontPath>${fontPath}</fontPath>
+                <customIcon icon="icon_wifi">./assets/wifi.svg</customIcon>
+                <customIcon icon="icon_bluetooth">./assets/bluetooth.svg</customIcon>
+                <customIcon icon="icon_battery_charging">./assets/batt-charge.svg</customIcon>
+                <customIcon icon="icon_battery_low">./assets/batt-empt.svg</customIcon>
+                <customIcon icon="icon_battery_med">./assets/batt-low.svg</customIcon>
+                <customIcon icon="icon_battery_high">./assets/batt-high.svg</customIcon>
+                <customIcon icon="icon_battery_full">./assets/batt-full.svg</customIcon>
+                <customIcon icon="icon_cellular">./assets/cell.svg</customIcon>
+            </systemstatus>
+            <clock name="menuclock">
+                <scope>view</scope>
+                <fontSize>0.02</fontSize>
+                <rotation>0</rotation>
+                <pos>0.095 0.08</pos>
+                <size>0.6 0.02</size>
+                <origin>0 0</origin>
+                <fontPath>${fontPath}</fontPath>
+                <horizontalAlignment>left</horizontalAlignment>
+                <verticalAlignment>center</verticalAlignment>
+                <color>333333</color>
+            </clock>
+            <systemstatus name="menustatusmenu">
+                <scope>menu</scope>
+                <pos>0.905 0.08</pos>
+                <origin>1 0</origin>
+                <height>0.02</height>
+                <color>222222</color>
+                <entries>all</entries>
+                <fontPath>${fontPath}</fontPath>
+                <customIcon icon="icon_wifi">./assets/wifi.svg</customIcon>
+                <customIcon icon="icon_bluetooth">./assets/bluetooth.svg</customIcon>
+                <customIcon icon="icon_battery_charging">./assets/batt-charge.svg</customIcon>
+                <customIcon icon="icon_battery_low">./assets/batt-empt.svg</customIcon>
+                <customIcon icon="icon_battery_med">./assets/batt-low.svg</customIcon>
+                <customIcon icon="icon_battery_high">./assets/batt-high.svg</customIcon>
+                <customIcon icon="icon_battery_full">./assets/batt-full.svg</customIcon>
+                <customIcon icon="icon_cellular">./assets/cell.svg</customIcon>
+            </systemstatus>
+            <clock name="menuclockmenu">
+                <scope>menu</scope>
+                <fontSize>0.02</fontSize>
+                <rotation>0</rotation>
+                <pos>0.095 0.08</pos>
+                <size>0.6 0.02</size>
+                <origin>0 0</origin>
+                <fontPath>${fontPath}</fontPath>
+                <horizontalAlignment>left</horizontalAlignment>
+                <verticalAlignment>center</verticalAlignment>
+                <color>333333</color>
+            </clock>
+
+            <image name="help">
+                <pos>0.50 0.8975</pos>
+                <origin>0.5 0.5</origin>
+                <size>0.82 0.03</size>
+                <path>./assets/space.webp</path>
+                <color>cecccf</color>
+                <zIndex>16</zIndex>
+            </image>
+            <helpsystem name="help">
+                <pos>0.5 0.9075</pos>
+                <origin>0.5 1</origin>
+                <entries>a,b,x,y,start,back</entries>
+                <fontSize>0.028</fontSize>
+                <textColor>000000</textColor>
+                <iconColor>000000</iconColor>
+                <fontSize>0.017</fontSize>
+                <fontPath>${fontPath}</fontPath>
+            </helpsystem>
+
+        </view>
+    </variant>
+    <!-- If you want to add custom sounds ucomment the next block and add your sounds at the paths
+    indicated below -->
+    <!--<view name="all">
+        <sound name="systembrowse">
+            <path>./core/sounds/systembrowse.wav</path>
+        </sound>
+        <sound name="quicksysselect">
+            <path>./core/sounds/systembrowse.wav</path>
+        </sound>
+        <sound name="select">
+            <path>./core/sounds/select.wav</path>
+        </sound>
+        <sound name="back">
+            <path>./core/sounds/back.wav</path>
+        </sound>
+        <sound name="scroll">
+            <path>./core/sounds/scroll.wav</path>
+        </sound>
+        <sound name="favorite">
+            <path>./core/sounds/favorite.wav</path>
+        </sound>
+        <sound name="launch">
+            <path>./core/sounds/launch.wav</path>
+        </sound>
+    </view>-->
+</theme>

@@ -1,0 +1,39 @@
+<themeCapabilities>
+   <themeName>testzx</themeName>
+
+   <language>en_US</language>
+    <language>en_GB</language>
+    <language>bs_BA</language>
+    <language>ca_ES</language>
+    <language>de_DE</language>
+    <language>es_ES</language>
+    <language>fr_FR</language>
+    <language>hr_HR</language>
+    <language>it_IT</language>
+    <language>nl_NL</language>
+    <language>pl_PL</language>
+    <language>pt_BR</language>
+    <language>pt_PT</language>
+    <language>ro_RO</language>
+    <language>ru_RU</language>
+    <language>sr_RS</language>
+    <language>sv_SE</language>
+    <language>ar_SA</language>
+    <language>ja_JP</language>
+    <language>ko_KR</language>
+    <language>zh_CN</language>
+    <language>zh_TW</language>
+
+    <variant name="zxspec">
+        <label>ZX Spectrum</label>
+        <selectable>true</selectable>
+    </variant>
+    <variant name="c64">
+        <label>Commodore64</label>
+        <selectable>true</selectable>
+    </variant>
+    <variant name="cpc">
+        <label>Amstrad CPC</label>
+        <selectable>true</selectable>
+    </variant>
+</themeCapabilities>
